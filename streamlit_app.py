@@ -1,4 +1,8 @@
+
 import streamlit as st
+
+st.set_page_config(page_title="Main Page", layout="wide")
+st.sidebar.title("Main Page")
 
 st.title("🎈 MSBA325 Assignment 3")
 st.write(

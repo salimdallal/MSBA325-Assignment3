@@ -1,6 +1,10 @@
 import streamlit as st
 import plotly.express as px
 
+st.set_page_config(page_title="Bar Charts", layout="wide")
+st.sidebar.title("Bar Charts")
+
+
 st.title('Bar Charts')
 st.title('State of Phone by Area comparison')
 
